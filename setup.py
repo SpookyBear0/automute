@@ -3,11 +3,10 @@ import pathlib
 
 root = pathlib.Path(__file__).parent
 
-setup(name="automute",
+setup(name="autodeafen",
       version="1.0.0",
-      description="Automatically mutes.",
+      description="Automatically defeans discord when far in gd.",
       long_description=(root / "README.md").read_text("utf-8"),
       author="SpookyBear0",
-      author_email="collinmcarroll@gmail.com",
       zip_safe=False,
 )
